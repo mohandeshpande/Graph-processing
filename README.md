@@ -1,6 +1,8 @@
 # Graph-processing
 Graph-processing using Spark in Scala
 
+The files large-graph.txt or small-graph.txt are used as input to the project.
+
 This project takes an undirected graph as input from a text file where each line represents a vertex and the vertices it is connected to. for ex a line in the input like:
 1,2,3,4,5,6,7 
 represents that vertex with ID 1 is connected to vertices with ID's 2,3,4,5,6 and 7.
